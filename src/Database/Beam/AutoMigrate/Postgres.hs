@@ -32,6 +32,7 @@ import Database.PostgreSQL.Simple.FromField (FromField (..), fromField, returnEr
 import Database.PostgreSQL.Simple.FromRow (FromRow (..), field)
 import qualified Database.PostgreSQL.Simple.TypeInfo.Static as Pg
 import qualified Database.PostgreSQL.Simple.Types as Pg
+import Control.Monad 
 
 --
 -- Necessary types to make working with the underlying raw SQL a bit more pleasant

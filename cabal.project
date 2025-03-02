@@ -1,1 +1,7 @@
 packages: .
+
+allow-newer:
+  gargoyle-postgresql-connect:*,
+  gargoyle-postgresql-nix:*,
+  gargoyle-postgresql:*,
+  gargoyle:*

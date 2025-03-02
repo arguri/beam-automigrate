@@ -94,6 +94,7 @@ import qualified Database.PostgreSQL.Simple as Pg
 import GHC.Generics hiding (prec)
 import Lens.Micro (over, (^.), _1, _2)
 import qualified Text.Pretty.Simple as PS
+import Control.Monad 
 
 -- $annotatingDbSettings
 -- The first thing to do in order to be able to use this library is to convert a Beam's 'DatabaseSettings'
