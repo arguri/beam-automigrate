@@ -4,4 +4,10 @@ allow-newer:
   gargoyle-postgresql-connect:*,
   gargoyle-postgresql-nix:*,
   gargoyle-postgresql:*,
-  gargoyle:*
+  gargoyle:*, 
+  postgresql-simple:base,
+  postgresql-libpq:base,
+  postgresql-libpq:Cabal,
+  beam-postgres:beam-migrate,
+  postgresql-libpq:base,
+  postgresql-simple:template-haskell

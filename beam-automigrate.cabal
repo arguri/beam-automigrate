@@ -43,15 +43,16 @@ library
       aeson                 >=1.4.4    && <2.3
     , base                  >=4.9      && <5
     , beam-core             >=0.9      && <0.11
-    , beam-postgres         >=0.5      && <0.6
+    , beam-postgres         >=0.5      && <0.8
     , bytestring            >=0.10.8.2 && <0.12.0.0
     , containers            >=0.5.9.2  && <0.8.0.0
     , deepseq               >=1.4.4    && <1.6
     , dlist                 >=0.8.0    && <1.1
     , microlens             >=0.4.10   && <0.6
     , mtl                   >=2.2.2    && <2.4
-    , postgresql-simple     >=0.5.4    && <0.8.0.0
+    , postgresql-simple     >=0.5.4    && <0.9.0.0
     , pretty-simple         >=2.2.0    && <4.2
+    , postgresql-libpq      ==0.10.2.0 
     , QuickCheck            >=2.13     && <2.15
     , quickcheck-instances  >=0.3      && <0.4
     , scientific            >=0.3.6    && <0.5
